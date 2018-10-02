@@ -29,12 +29,6 @@
     <Filter Include="Library\Collision\Sphere">
       <UniqueIdentifier>{61d9432d-9079-44cf-bfff-aae32f227c39}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Library\Collision\OBB×OBB">
-      <UniqueIdentifier>{4bea79ec-f264-4793-907c-4e5a948bd9a0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Library\Collision\OBB×Sphere">
-      <UniqueIdentifier>{2c8e5ccf-e206-4a77-a436-059acdbc5779}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Library\Camera">
       <UniqueIdentifier>{44521c59-9063-4786-bef3-b274f50b71e4}</UniqueIdentifier>
     </Filter>
@@ -64,6 +58,12 @@
     </Filter>
     <Filter Include="Shaders\Managers">
       <UniqueIdentifier>{1f2e4d19-3e3c-470b-afac-4c49428b42f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Collision\OBB2OBB">
+      <UniqueIdentifier>{4bea79ec-f264-4793-907c-4e5a948bd9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Collision\OBB2Sphere">
+      <UniqueIdentifier>{2c8e5ccf-e206-4a77-a436-059acdbc5779}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -96,12 +96,6 @@
     </ClInclude>
     <ClInclude Include="Library\Collision\OBB\OBBNode.h">
       <Filter>Library\Collision\OBB</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\Collision\OBB×OBB\OBBCollision.h">
-      <Filter>Library\Collision\OBB×OBB</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\Collision\OBB×Sphere\OBB2SphereCollision.h">
-      <Filter>Library\Collision\OBB×Sphere</Filter>
     </ClInclude>
     <ClInclude Include="Library\Collision\Sphere\CollisionNode.h">
       <Filter>Library\Collision\Sphere</Filter>
@@ -223,6 +217,12 @@
     <ClInclude Include="Game\Scene\PlayStage2Scene.h">
       <Filter>Game\Scene</Filter>
     </ClInclude>
+    <ClInclude Include="Library\Collision\OBB2OBB\OBBCollision.h">
+      <Filter>Library\Collision\OBB2OBB</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Collision\OBB2Sphere\OBB2SphereCollision.h">
+      <Filter>Library\Collision\OBB2Sphere</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game\Scene\ResultScene.cpp">
@@ -251,12 +251,6 @@
     </ClCompile>
     <ClCompile Include="Library\Collision\OBB\OBBNode.cpp">
       <Filter>Library\Collision\OBB</Filter>
-    </ClCompile>
-    <ClCompile Include="Library\Collision\OBB×OBB\OBBCollision.cpp">
-      <Filter>Library\Collision\OBB×OBB</Filter>
-    </ClCompile>
-    <ClCompile Include="Library\Collision\OBB×Sphere\OBB2SphereCollision.cpp">
-      <Filter>Library\Collision\OBB×Sphere</Filter>
     </ClCompile>
     <ClCompile Include="Library\Collision\Sphere\CollisionNode.cpp">
       <Filter>Library\Collision\Sphere</Filter>
@@ -371,6 +365,12 @@
     </ClCompile>
     <ClCompile Include="Game\Scene\PlayStage2Scene.cpp">
       <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Collision\OBB2OBB\OBBCollision.cpp">
+      <Filter>Library\Collision\OBB2OBB</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Collision\OBB2Sphere\OBB2SphereCollision.cpp">
+      <Filter>Library\Collision\OBB2Sphere</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

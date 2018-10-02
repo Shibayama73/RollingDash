@@ -10,7 +10,7 @@
 #include <keyboard.h>
 #include "..\..\Library\Collision\Sphere\SphereNode.h"
 #include "..\..\Library\Keyboards\Keyboards.h"
-#include "..\..\Library\Collision\OBBÅ~Sphere\OBB2SphereCollision.h"
+#include "..\..\Library\Collision\OBB2Sphere\OBB2SphereCollision.h"
 #include "..\..\Game\Objects\CubeStage.h"
 #include "..\..\Game\Objects\Shield.h"
 

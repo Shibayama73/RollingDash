@@ -1,9 +1,58 @@
-﻿  Assets\cubeStage.FBX
+﻿  compilation object save succeeded; see C:\Users\s162098\Documents\RollingDash\Game\Resources\Shaders\GeometryShader.cso
+  compilation object save succeeded; see C:\Users\s162098\Documents\RollingDash\Game\Resources\Shaders\PixelShader.cso
+  compilation object save succeeded; see C:\Users\s162098\Documents\RollingDash\Game\Resources\Shaders\VertexShader.cso
+  Assets\cubeStage.FBX
   Assets\cubeworld.FBX
   Assets\effect.FBX
   Assets\heart.FBX
   Assets\sphereE.FBX
   Assets\sphereNode.FBX
   Assets\sphereP.FBX
-  Game.vcxproj -> C:\Users\s162098\Desktop\コロコロダッシュ\Debug\Game.exe
-  Game.vcxproj -> C:\Users\s162098\Desktop\コロコロダッシュ\Debug\Game.pdb (Full PDB)
+  Main.cpp
+  GameMain.cpp
+c:\users\s162098\documents\rollingdash\game\library\framework\pch.h(9): warning C4005: '_WIN32_WINNT': マクロが再定義されました。
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\shared\sdkddkver.h(209): note: '_WIN32_WINNT' の以前の定義を確認してください
+  OBB2SphereCollision.cpp
+  OBBCollision.cpp
+  FollowCamera.cpp
+c:\users\s162098\documents\rollingdash\game\library\framework\pch.h(9): warning C4005: '_WIN32_WINNT': マクロが再定義されました。
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\shared\sdkddkver.h(209): note: '_WIN32_WINNT' の以前の定義を確認してください
+  TitleScene.cpp
+c:\users\s162098\documents\rollingdash\game\library\framework\pch.h(9): warning C4005: '_WIN32_WINNT': マクロが再定義されました。
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\shared\sdkddkver.h(209): note: '_WIN32_WINNT' の以前の定義を確認してください
+  StageSelectScene.cpp
+c:\users\s162098\documents\rollingdash\game\library\framework\pch.h(9): warning C4005: '_WIN32_WINNT': マクロが再定義されました。
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\shared\sdkddkver.h(209): note: '_WIN32_WINNT' の以前の定義を確認してください
+  SceneManager.cpp
+c:\users\s162098\documents\rollingdash\game\library\framework\pch.h(9): warning C4005: '_WIN32_WINNT': マクロが再定義されました。
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\shared\sdkddkver.h(209): note: '_WIN32_WINNT' の以前の定義を確認してください
+  ResultScene.cpp
+c:\users\s162098\documents\rollingdash\game\library\framework\pch.h(9): warning C4005: '_WIN32_WINNT': マクロが再定義されました。
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\shared\sdkddkver.h(209): note: '_WIN32_WINNT' の以前の定義を確認してください
+  PlayStage2Scene.cpp
+c:\users\s162098\documents\rollingdash\game\game\scene\playstage2scene.cpp(55): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\s162098\documents\rollingdash\game\game\scene\playstage2scene.cpp(322): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\s162098\documents\rollingdash\game\game\scene\playstage2scene.cpp(347): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  PlayStage1Scene.cpp
+c:\users\s162098\documents\rollingdash\game\game\scene\playstage1scene.cpp(57): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\s162098\documents\rollingdash\game\game\scene\playstage1scene.cpp(322): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\s162098\documents\rollingdash\game\game\scene\playstage1scene.cpp(347): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  Shield.cpp
+c:\users\s162098\documents\rollingdash\game\library\framework\pch.h(9): warning C4005: '_WIN32_WINNT': マクロが再定義されました。
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\shared\sdkddkver.h(209): note: '_WIN32_WINNT' の以前の定義を確認してください
+  Player.cpp
+c:\users\s162098\documents\rollingdash\game\library\framework\pch.h(9): warning C4005: '_WIN32_WINNT': マクロが再定義されました。
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\shared\sdkddkver.h(209): note: '_WIN32_WINNT' の以前の定義を確認してください
+  Enemy.cpp
+c:\users\s162098\documents\rollingdash\game\library\framework\pch.h(9): warning C4005: '_WIN32_WINNT': マクロが再定義されました。
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\shared\sdkddkver.h(209): note: '_WIN32_WINNT' の以前の定義を確認してください
+  CubeStage.cpp
+c:\users\s162098\documents\rollingdash\game\library\framework\pch.h(9): warning C4005: '_WIN32_WINNT': マクロが再定義されました。
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\shared\sdkddkver.h(209): note: '_WIN32_WINNT' の以前の定義を確認してください
+  Cube.cpp
+c:\users\s162098\documents\rollingdash\game\library\framework\pch.h(9): warning C4005: '_WIN32_WINNT': マクロが再定義されました。
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\shared\sdkddkver.h(209): note: '_WIN32_WINNT' の以前の定義を確認してください
+  コードを生成中...
+     ライブラリ C:\Users\s162098\Documents\RollingDash\Debug\Game.lib とオブジェクト C:\Users\s162098\Documents\RollingDash\Debug\Game.exp を作成中
+  Game.vcxproj -> C:\Users\s162098\Documents\RollingDash\Debug\Game.exe
+  Game.vcxproj -> C:\Users\s162098\Documents\RollingDash\Debug\Game.pdb (Full PDB)

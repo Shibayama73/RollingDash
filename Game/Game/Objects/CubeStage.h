@@ -9,7 +9,7 @@
 #include "..\..\Library\Collision\OBB\OBB.h"
 #include "..\..\Library\Collision\OBB\GroundNode.h"
 #include "..\..\Library\Collision\OBB\OBBNode.h"
-#include "..\..\Library\Collision\OBBÅ~OBB\OBBCollision.h"
+#include "..\..\Library\Collision\OBB2OBB\OBBCollision.h"
 
 class CubeStage
 {

@@ -197,11 +197,11 @@
     <ClInclude Include="Library\Camera\Camera.h" />
     <ClInclude Include="Library\Camera\DebugCamera.h" />
     <ClInclude Include="Library\Camera\FollowCamera.h" />
+    <ClInclude Include="Library\Collision\OBB2OBB\OBBCollision.h" />
+    <ClInclude Include="Library\Collision\OBB2Sphere\OBB2SphereCollision.h" />
     <ClInclude Include="Library\Collision\OBB\GroundNode.h" />
     <ClInclude Include="Library\Collision\OBB\OBB.h" />
     <ClInclude Include="Library\Collision\OBB\OBBNode.h" />
-    <ClInclude Include="Library\Collision\OBB×OBB\OBBCollision.h" />
-    <ClInclude Include="Library\Collision\OBB×Sphere\OBB2SphereCollision.h" />
     <ClInclude Include="Library\Collision\Sphere\CollisionNode.h" />
     <ClInclude Include="Library\Collision\Sphere\SphereCollision.h" />
     <ClInclude Include="Library\Collision\Sphere\SphereNode.h" />
@@ -250,11 +250,11 @@
     <ClCompile Include="Library\Camera\Camera.cpp" />
     <ClCompile Include="Library\Camera\DebugCamera.cpp" />
     <ClCompile Include="Library\Camera\FollowCamera.cpp" />
+    <ClCompile Include="Library\Collision\OBB2OBB\OBBCollision.cpp" />
+    <ClCompile Include="Library\Collision\OBB2Sphere\OBB2SphereCollision.cpp" />
     <ClCompile Include="Library\Collision\OBB\GroundNode.cpp" />
     <ClCompile Include="Library\Collision\OBB\OBB.cpp" />
     <ClCompile Include="Library\Collision\OBB\OBBNode.cpp" />
-    <ClCompile Include="Library\Collision\OBB×OBB\OBBCollision.cpp" />
-    <ClCompile Include="Library\Collision\OBB×Sphere\OBB2SphereCollision.cpp" />
     <ClCompile Include="Library\Collision\Sphere\CollisionNode.cpp" />
     <ClCompile Include="Library\Collision\Sphere\SphereCollision.cpp" />
     <ClCompile Include="Library\Collision\Sphere\SphereNode.cpp" />

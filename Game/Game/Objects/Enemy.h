@@ -8,7 +8,7 @@
 #pragma once
 #include "Object3D.h"
 #include "..\..\Library\Collision\Sphere\SphereNode.h"
-#include "..\..\Library\Collision\OBBÅ~Sphere\OBB2SphereCollision.h"
+#include "..\..\Library\Collision\OBB2Sphere\OBB2SphereCollision.h"
 
 class Enemy
 {
