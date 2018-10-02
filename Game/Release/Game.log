@@ -1,0 +1,52 @@
+﻿  Assets\cubeStage.FBX
+  Assets\cubeworld.FBX
+  Assets\effect.FBX
+  Assets\heart.FBX
+  Assets\sphereE.FBX
+  Assets\sphereNode.FBX
+  Assets\sphereP.FBX
+  CubeStage.cpp
+c:\users\s162098\desktop\コロコロダッシュ\game\library\devices\..\Framework\pch.h(9): warning C4005: '_WIN32_WINNT': マクロが再定義されました。
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\shared\sdkddkver.h(209): note: '_WIN32_WINNT' の以前の定義を確認してください
+  Enemy.cpp
+c:\users\s162098\desktop\コロコロダッシュ\game\library\devices\..\Framework\pch.h(9): warning C4005: '_WIN32_WINNT': マクロが再定義されました。
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\shared\sdkddkver.h(209): note: '_WIN32_WINNT' の以前の定義を確認してください
+  Player.cpp
+c:\users\s162098\desktop\コロコロダッシュ\game\library\devices\..\Framework\pch.h(9): warning C4005: '_WIN32_WINNT': マクロが再定義されました。
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\shared\sdkddkver.h(209): note: '_WIN32_WINNT' の以前の定義を確認してください
+  PlayStage1Scene.cpp
+Game\Scene\PlayStage1Scene.cpp(57): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+Game\Scene\PlayStage1Scene.cpp(322): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+Game\Scene\PlayStage1Scene.cpp(347): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  PlayStage2Scene.cpp
+Game\Scene\PlayStage2Scene.cpp(55): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+Game\Scene\PlayStage2Scene.cpp(322): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+Game\Scene\PlayStage2Scene.cpp(347): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  ResultScene.cpp
+c:\users\s162098\desktop\コロコロダッシュ\game\library\devices\..\Framework\pch.h(9): warning C4005: '_WIN32_WINNT': マクロが再定義されました。
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\shared\sdkddkver.h(209): note: '_WIN32_WINNT' の以前の定義を確認してください
+  SceneManager.cpp
+c:\users\s162098\desktop\コロコロダッシュ\game\library\devices\..\Framework\pch.h(9): warning C4005: '_WIN32_WINNT': マクロが再定義されました。
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\shared\sdkddkver.h(209): note: '_WIN32_WINNT' の以前の定義を確認してください
+  StageSelectScene.cpp
+c:\users\s162098\desktop\コロコロダッシュ\game\library\devices\..\Framework\pch.h(9): warning C4005: '_WIN32_WINNT': マクロが再定義されました。
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\shared\sdkddkver.h(209): note: '_WIN32_WINNT' の以前の定義を確認してください
+  TitleScene.cpp
+c:\users\s162098\desktop\コロコロダッシュ\game\library\devices\..\Framework\pch.h(9): warning C4005: '_WIN32_WINNT': マクロが再定義されました。
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\shared\sdkddkver.h(209): note: '_WIN32_WINNT' の以前の定義を確認してください
+  FollowCamera.cpp
+c:\users\s162098\desktop\コロコロダッシュ\game\library\keyboards\..\Framework\pch.h(9): warning C4005: '_WIN32_WINNT': マクロが再定義されました。
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\shared\sdkddkver.h(209): note: '_WIN32_WINNT' の以前の定義を確認してください
+  GameMain.cpp
+c:\users\s162098\desktop\コロコロダッシュ\game\library\devices\..\Framework\pch.h(9): warning C4005: '_WIN32_WINNT': マクロが再定義されました。
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\shared\sdkddkver.h(209): note: '_WIN32_WINNT' の以前の定義を確認してください
+  Main.cpp
+  ADX2Le.cpp
+     ライブラリ C:\Users\s162098\Desktop\コロコロダッシュ\Release\Game.lib とオブジェクト C:\Users\s162098\Desktop\コロコロダッシュ\Release\Game.exp を作成中
+  コード生成しています。
+  566 of 2175 functions (26.0%) were compiled, the rest were copied from previous compilation.
+    27 functions were new in current compilation
+    152 functions had inline decision re-evaluated but remain unchanged
+  コード生成が終了しました。
+  Game.vcxproj -> C:\Users\s162098\Desktop\コロコロダッシュ\Release\Game.exe
+  Game.vcxproj -> C:\Users\s162098\Desktop\コロコロダッシュ\Release\Game.pdb (Full PDB)

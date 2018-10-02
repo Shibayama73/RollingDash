@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>37fdd48e-2149-4fd5-9603-b8dbded3f2d5</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{9407fed5-1d0a-4259-a821-3508cb9683de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{f43cf896-8975-4cd3-9d41-55b517675671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Keyboards">
+      <UniqueIdentifier>{199e8af7-0ced-497e-969e-046817c72a6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Devices">
+      <UniqueIdentifier>{6994229e-99f5-477a-8984-19b27c6d72a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Files">
+      <UniqueIdentifier>{82db62e8-897a-47f3-8def-ea07630e3c3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Collision">
+      <UniqueIdentifier>{4bbd3c84-180e-487a-9656-7534ba12a80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Collision\OBB">
+      <UniqueIdentifier>{0d89a3fb-a442-471a-8983-34b37bffb28d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Collision\Sphere">
+      <UniqueIdentifier>{61d9432d-9079-44cf-bfff-aae32f227c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Collision\OBB×OBB">
+      <UniqueIdentifier>{4bea79ec-f264-4793-907c-4e5a948bd9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Collision\OBB×Sphere">
+      <UniqueIdentifier>{2c8e5ccf-e206-4a77-a436-059acdbc5779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Camera">
+      <UniqueIdentifier>{44521c59-9063-4786-bef3-b274f50b71e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Dialogs">
+      <UniqueIdentifier>{85315441-231e-4098-9447-35a8c11ac19f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Sounds">
+      <UniqueIdentifier>{d5017288-7d94-44c6-b5dd-6ad738b3ea1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Framework">
+      <UniqueIdentifier>{3fc70916-3977-438f-a780-c6f093204323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects">
+      <UniqueIdentifier>{a65b41fe-3f24-4781-8568-9b962394ba06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI">
+      <UniqueIdentifier>{bec26df0-6864-4e34-a77e-06776d257f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{90d1f13b-8e18-4463-a68e-43f63c25881f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{6be38be7-84af-400e-9c0f-57c90e36e052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Emitters">
+      <UniqueIdentifier>{6614de30-1a03-433d-a4e4-99a26e4a9420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Managers">
+      <UniqueIdentifier>{1f2e4d19-3e3c-470b-afac-4c49428b42f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\Scene\ResultScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\SceneBase.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\SceneManager.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\TitleScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Camera\Camera.h">
+      <Filter>Library\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Camera\DebugCamera.h">
+      <Filter>Library\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Camera\FollowCamera.h">
+      <Filter>Library\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Collision\OBB\GroundNode.h">
+      <Filter>Library\Collision\OBB</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Collision\OBB\OBB.h">
+      <Filter>Library\Collision\OBB</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Collision\OBB\OBBNode.h">
+      <Filter>Library\Collision\OBB</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Collision\OBB×OBB\OBBCollision.h">
+      <Filter>Library\Collision\OBB×OBB</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Collision\OBB×Sphere\OBB2SphereCollision.h">
+      <Filter>Library\Collision\OBB×Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Collision\Sphere\CollisionNode.h">
+      <Filter>Library\Collision\Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Collision\Sphere\SphereCollision.h">
+      <Filter>Library\Collision\Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Collision\Sphere\SphereNode.h">
+      <Filter>Library\Collision\Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Devices\Devices.h">
+      <Filter>Library\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Dialogs\FontImage.h">
+      <Filter>Library\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Dialogs\Message.h">
+      <Filter>Library\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Files\FileIO.h">
+      <Filter>Library\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Framework\Game.h">
+      <Filter>Library\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Framework\GameMain.h">
+      <Filter>Library\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Framework\pch.h">
+      <Filter>Library\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Framework\StepTimer.h">
+      <Filter>Library\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Framework\Window.h">
+      <Filter>Library\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Keyboards\Keyboards.h">
+      <Filter>Library\Keyboards</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Keyboards\KeyConvertList.h">
+      <Filter>Library\Keyboards</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Sounds\ADX2Le.h">
+      <Filter>Library\Sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Cube.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\CubeStage.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Enemy.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Heart.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\ModelEffectManager.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Object3D.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Player.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Shield.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\World.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UI\LimitTime.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UI\ShieldSum.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Emitters\CircleEmitter.h">
+      <Filter>Shaders\Emitters</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Emitters\ClearEmitter.h">
+      <Filter>Shaders\Emitters</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Emitters\GoalEmitter.h">
+      <Filter>Shaders\Emitters</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Emitters\ImpactEmitter.h">
+      <Filter>Shaders\Emitters</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Emitters\OverEmitter.h">
+      <Filter>Shaders\Emitters</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Managers\BinaryFile.h">
+      <Filter>Shaders\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Managers\Emitter.h">
+      <Filter>Shaders\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Managers\ParticleEffectManager.h">
+      <Filter>Shaders\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Managers\ParticleInformation.h">
+      <Filter>Shaders\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Sounds\CueSheet_0.h">
+      <Filter>Library\Sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Sounds\KoroDash_acf.h">
+      <Filter>Library\Sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\StageSelectScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\PlayStage1Scene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\PlayStage2Scene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game\Scene\ResultScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\SceneManager.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\TitleScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Camera\Camera.cpp">
+      <Filter>Library\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Camera\DebugCamera.cpp">
+      <Filter>Library\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Camera\FollowCamera.cpp">
+      <Filter>Library\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Collision\OBB\GroundNode.cpp">
+      <Filter>Library\Collision\OBB</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Collision\OBB\OBB.cpp">
+      <Filter>Library\Collision\OBB</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Collision\OBB\OBBNode.cpp">
+      <Filter>Library\Collision\OBB</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Collision\OBB×OBB\OBBCollision.cpp">
+      <Filter>Library\Collision\OBB×OBB</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Collision\OBB×Sphere\OBB2SphereCollision.cpp">
+      <Filter>Library\Collision\OBB×Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Collision\Sphere\CollisionNode.cpp">
+      <Filter>Library\Collision\Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Collision\Sphere\SphereCollision.cpp">
+      <Filter>Library\Collision\Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Collision\Sphere\SphereNode.cpp">
+      <Filter>Library\Collision\Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Devices\Devices.cpp">
+      <Filter>Library\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Dialogs\FontImage.cpp">
+      <Filter>Library\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Dialogs\Message.cpp">
+      <Filter>Library\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Files\FileIO.cpp">
+      <Filter>Library\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Framework\Game.cpp">
+      <Filter>Library\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Framework\GameMain.cpp">
+      <Filter>Library\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Framework\Main.cpp">
+      <Filter>Library\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Framework\pch.cpp">
+      <Filter>Library\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Framework\Window.cpp">
+      <Filter>Library\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Keyboards\Keyboards.cpp">
+      <Filter>Library\Keyboards</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Keyboards\KeyConvertList.cpp">
+      <Filter>Library\Keyboards</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Sounds\ADX2Le.cpp">
+      <Filter>Library\Sounds</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Cube.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\CubeStage.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Enemy.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Heart.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\ModelEffectManager.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Object3D.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Player.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Shield.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\World.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UI\LimitTime.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UI\ShieldSum.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Emitters\CircleEmitter.cpp">
+      <Filter>Shaders\Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Emitters\ClearEmitter.cpp">
+      <Filter>Shaders\Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Emitters\GoalEmitter.cpp">
+      <Filter>Shaders\Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Emitters\ImpactEmitter.cpp">
+      <Filter>Shaders\Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Emitters\OverEmitter.cpp">
+      <Filter>Shaders\Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Managers\BinaryFile.cpp">
+      <Filter>Shaders\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Managers\Emitter.cpp">
+      <Filter>Shaders\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Managers\ParticleEffectManager.cpp">
+      <Filter>Shaders\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Managers\ParticleInformation.cpp">
+      <Filter>Shaders\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\StageSelectScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\PlayStage1Scene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\PlayStage2Scene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <MeshContentTask Include="Assets\cubeStage.FBX">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\sphereNode.FBX">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\effect.FBX">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\sphereP.FBX">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\sphereE.FBX">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\cubeworld.FBX">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\heart.FBX">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Particle.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="VertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GeometryShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
